@@ -86,3 +86,36 @@ $ cowsay Hi
 When you're still developing your project, you can install a local version using the `-e` flag.
 
 
+
+
+## The 5 links:
+
+Official Python Tutorial :: Packaging Python projects
+This tutorial walks you through how to package a simple Python project
+Uses SETUPTOOLS under the hood
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+SETUPTOOLS :: Packaging Python projects
+This tutorial walks you through how to package a simple Python project, the SETUPTOOLS way
+https://setuptools.pypa.io/en/latest/userguide/index.html
+
+Pipx :: Install and Run Python Applications in virtual environments without needing to first activate the virtual environment.
+Apparantely the world's been using pipx this whole time and I just didn't notice.
+https://pypi.org/project/pipx/
+
+Cookiecutter :: Probably the best python package for creating python packages
+Created by the author of Two Scoops of Django 
+https://github.com/cookiecutter/cookiecutter
+```
+> cookiecutter $cookiecutter_template
+> cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage # Thorough. The doc-u-men-tation! Schews to an older SETUPTOOLS layout.
+> cookiecutter https://github.com/cookiecutter/cookiecutter-django     # Wow
+```
+
+PPW :: Cookiecutter fork, endorsed by Cookiecutter.
+https://zillionare.github.io/python-project-wizard/
+
+----------------------------------------------------------
+
+
+
