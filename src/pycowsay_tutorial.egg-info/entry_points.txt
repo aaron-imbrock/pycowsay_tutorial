@@ -1,0 +1,2 @@
+[console_scripts]
+cowsay = pycowsay.main:main
